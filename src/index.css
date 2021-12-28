@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Rampart One', cursive;
+}
+
+code {
+  font-family: 'Rampart One', cursive;
+}
+#root{
+  height: 1850px;
+}

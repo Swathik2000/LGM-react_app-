@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:url('./bg.jpg') no-repeat center center/cover;
+  margin-top: 34px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Russo One', sans-serif;
+  overflow-x: hidden;
+}
+
+/* NavBar Styling */
+.navbar_section{
+  background-color: rgb(102, 96, 96);
+  position: absolute;
+  top: 0px;
+  height: 15%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.nav-part{
+  margin-top:0px;
+  height:100px;
+}
+.Nav-1{
+  margin-top: -72px;
+  transform: translate(-50%,-50%);
+}
+
+/* Navbar: Button  */
+.button{
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 132%;
+  margin-top: 51px;
+  border-radius: 80px;
+  color: white;
+  background: #030408;
+  font-weight: 300;
+  text-transform: uppercase;    /*rgb(86, 243, 248)*/
+  letter-spacing: 4px;
+  border: 5px solid teal;
+  transition: 1s;
+  font-family:Arial, Helvetica, sans-serif !important;
+
+}
+.navbar_section button:hover{
+  box-shadow: 0 5px 50px 0 teal inset, 0 5px 50px 0 teal;
+  text-shadow: 0 0 5px wheat,0 0 5px wheat;
+  cursor: pointer;
+}
+/*Container Part */
+.container-part {
+  color:crimson;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  font-size: 3.8rem;
+  font-family: 'Russo One', sans-serif;
+}
+
+/* Navbar Heading */
+#nav-head {
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 0px;
+  padding-left: 320px;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav-head:hover{
+  color: rgb(247, 180, 36);
+  cursor: pointer;
+}
+
+/* Container */
+.container{
+  margin-top: 395px;
+  margin-left: 23px;
+  color: yellowgreen;
+}
+
+
+
+
+
+
+
+
